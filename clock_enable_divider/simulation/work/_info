@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_2/projects/alu/simulation
+vclock_enable_divider
+Z0 !s110 1627588638
+!i10b 1
+!s100 Z:]7FJ>IUjLPL>zWml2om1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I19VQB9Dh=J=Bfnz;V558T3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/simulation
+w1627588454
+8C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/hdl/clock_enable_divider.v
+FC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/hdl/clock_enable_divider.v
+!i122 24
+L0 3 38
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1627588638.000000
+!s107 C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/hdl/clock_enable_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/hdl/clock_enable_divider.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vclock_enable_divider_tb
+R0
+!i10b 1
+!s100 2XU0hlo>T9hn7ndOd:cDe1
+R1
+I[k>AB39?Jbz^Z2]jY]^5O3
+R2
+R3
+w1627588624
+8C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/testbench/clock_enable_divider_tb.v
+FC:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/testbench/clock_enable_divider_tb.v
+!i122 25
+L0 3 34
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/testbench/clock_enable_divider_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/testbench/clock_enable_divider_tb.v|
+!i113 1
+R6
+R7

@@ -1,0 +1,27 @@
+vsim -gui work.clock_enable_divider_tb
+# vsim -gui work.clock_enable_divider_tb 
+# Start time: 05:56:03 on Jul 30,2021
+# Loading work.clock_enable_divider_tb
+# Loading work.clock_enable_divider
+# ** Error: (vsim-3063) Port 'o_clk_half' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /clock_enable_divider_tb/UUT File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/testbench/clock_enable_divider_tb.v Line: 15
+# ** Error: (vsim-3063) Port 'o_clk_quarter' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /clock_enable_divider_tb/UUT File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/testbench/clock_enable_divider_tb.v Line: 15
+# Error loading design
+# End time: 05:56:04 on Jul 30,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+# Compile of clock_enable_divider.v was successful.
+# Compile of clock_enable_divider_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.clock_enable_divider_tb
+# vsim -gui work.clock_enable_divider_tb 
+# Start time: 05:57:24 on Jul 30,2021
+# Loading work.clock_enable_divider_tb
+# Loading work.clock_enable_divider
+add wave -position insertpoint sim:/clock_enable_divider_tb/*
+run -all
+# ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/testbench/clock_enable_divider_tb.v(33)
+#    Time: 200 ns  Iteration: 0  Instance: /clock_enable_divider_tb
+# Break in Module clock_enable_divider_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/clock_enable_divider/testbench/clock_enable_divider_tb.v line 33
+# End time: 05:59:42 on Jul 30,2021, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 3

@@ -1,0 +1,75 @@
+$date
+	Fri Jul 30 05:57:46 2021
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module clock_enable_divider_tb $end
+$var reg 1 ! t_clk $end
+$var wire 1 " t_o_clk_en_half $end
+$var wire 1 # t_o_clk_en_quarter $end
+$var time 64 $ wait_time $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b11001000 $
+0"
+0#
+$end
+#10
+1!
+#20
+0!
+#30
+1!
+1"
+#40
+0!
+#50
+1!
+0"
+#60
+0!
+#70
+1!
+1"
+1#
+#80
+0!
+#90
+1!
+0"
+0#
+#100
+0!
+#110
+1!
+1"
+#120
+0!
+#130
+1!
+0"
+#140
+0!
+#150
+1!
+1"
+1#
+#160
+0!
+#170
+1!
+0"
+0#
+#180
+0!
+#190
+1!
+1"

@@ -1,0 +1,103 @@
+# Compile of blink_modified_tb.v was successful.
+# Compile of clock_enable_divider.v was successful.
+# Compile of blink.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.blink_modified_tb
+# vsim -gui work.blink_modified_tb 
+# Start time: 08:19:09 on Jul 30,2021
+# Loading work.blink_modified_tb
+# Loading work.blink_modified
+# Loading work.clock_enable_divider
+add wave -position end  sim:/blink_modified_tb/t_clk
+add wave -position end  sim:/blink_modified_tb/t_led
+add wave -position end  sim:/blink_modified_tb/UUT/ced1/i_clken
+add wave -position end  sim:/blink_modified_tb/UUT/ced1/o_clk_en_quarter
+add wave -position end  sim:/blink_modified_tb/UUT/ced2/i_clken
+add wave -position end  sim:/blink_modified_tb/UUT/ced2/o_clk_en_quarter
+add wave -position end  sim:/blink_modified_tb/UUT/ced3/o_clk_en_quarter
+add wave -position end  sim:/blink_modified_tb/UUT/ced4/o_clk_en_quarter
+add wave -position end  sim:/blink_modified_tb/UUT/ced5/o_clk_en_quarter
+add wave -position end  sim:/blink_modified_tb/UUT/ced6/o_clk_en_quarter
+add wave -position end  sim:/blink_modified_tb/UUT/ced7/o_clk_en_quarter
+add wave -position end  sim:/blink_modified_tb/UUT/ced8/o_clk_en_quarter
+add wave -position end  sim:/blink_modified_tb/UUT/ced9/o_clk_en_quarter
+add wave -position end  sim:/blink_modified_tb/UUT/ced10/o_clk_en_quarter
+run -all
+# ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/blink_modified/testbench/blink_modified_tb.v(24)
+#    Time: 1 ms  Iteration: 0  Instance: /blink_modified_tb
+# Break in Module blink_modified_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/blink_modified/testbench/blink_modified_tb.v line 24
+add wave -position end  sim:/blink_modified_tb/UUT/ced_quarter
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# Compile of blink_modified_tb.v was successful.
+# Compile of clock_enable_divider.v was successful.
+# Compile of blink.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.blink_modified_tb
+# Loading work.blink_modified
+# Loading work.clock_enable_divider
+# Load canceled
+run
+# Compile of blink_modified_tb.v was successful.
+# Compile of clock_enable_divider.v was successful.
+# Compile of blink.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.blink_modified_tb
+# Loading work.blink_modified
+# Loading work.clock_enable_divider
+run
+run
+run -all
+# ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/blink_modified/testbench/blink_modified_tb.v(24)
+#    Time: 1 ms  Iteration: 0  Instance: /blink_modified_tb
+# Break in Module blink_modified_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/blink_modified/testbench/blink_modified_tb.v line 24
+# Compile of blink_modified_tb.v was successful.
+# Compile of clock_enable_divider.v was successful.
+# Compile of blink.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.blink_modified_tb
+# Loading work.blink_modified
+# Loading work.clock_enable_divider
+run -all
+# ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/blink_modified/testbench/blink_modified_tb.v(24)
+#    Time: 1 ms  Iteration: 0  Instance: /blink_modified_tb
+# Break in Module blink_modified_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/blink_modified/testbench/blink_modified_tb.v line 24
+# Compile of blink_modified_tb.v was successful.
+# Compile of clock_enable_divider.v was successful.
+# Compile of blink.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.blink_modified_tb
+# Loading work.blink_modified
+# Loading work.clock_enable_divider
+add wave -position 1  sim:/blink_modified_tb/UUT/lengthen
+run -all
+# ** Note: $stop    : C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/blink_modified/testbench/blink_modified_tb.v(24)
+#    Time: 1 ms  Iteration: 0  Instance: /blink_modified_tb
+# Break in Module blink_modified_tb at C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/blink_modified/testbench/blink_modified_tb.v line 24
+# Compile of blink_modified_tb.v was successful.
+# Compile of clock_enable_divider.v was successful.
+# Compile of blink.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.blink_modified_tb
+# Loading work.blink_modified
+# Loading work.clock_enable_divider
+run
+# End time: 08:58:28 on Jul 30,2021, Elapsed time: 0:39:19
+# Errors: 0, Warnings: 1

@@ -1,0 +1,31 @@
+|blink_modified
+i_clk => i_clk.IN1
+o_led[0] <= i_clk.DB_MAX_OUTPUT_PORT_TYPE
+o_led[1] <= clock_enable_divider:ced.o_clk_en_half
+o_led[2] <= clock_enable_divider:ced.o_clk_en_quarter
+o_led[3] <= <GND>
+o_led[4] <= <GND>
+o_led[5] <= <GND>
+o_led[6] <= <GND>
+o_led[7] <= <GND>
+
+
+|blink_modified|clock_enable_divider:ced
+i_clk => o_clk_en_quarter~reg0.CLK
+i_clk => o_clk_en_half~reg0.CLK
+i_clk => r_clk_counter[0].CLK
+i_clk => r_clk_counter[1].CLK
+i_clk => r_clk_counter[2].CLK
+i_clk => r_clk_counter[3].CLK
+i_clk => r_clk_counter[4].CLK
+i_clken => o_clk_en_half.OUTPUTSELECT
+i_clken => o_clk_en_quarter.OUTPUTSELECT
+i_clken => r_clk_counter[0].ENA
+i_clken => r_clk_counter[1].ENA
+i_clken => r_clk_counter[2].ENA
+i_clken => r_clk_counter[3].ENA
+i_clken => r_clk_counter[4].ENA
+o_clk_en_half <= o_clk_en_half~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_clk_en_quarter <= o_clk_en_quarter~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,4 @@
+output o_x_data,
+	output o_y_data,
+	
+	output o_cur_selection,

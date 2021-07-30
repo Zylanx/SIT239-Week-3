@@ -1,0 +1,279 @@
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tld_tb
+# vsim -gui work.tld_tb 
+# Start time: 07:08:16 on Jul 31,2021
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_x_data'. The port definition is at: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/serial_adder.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /tld_tb/UUT/adder File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_y_data'. The port definition is at: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/serial_adder.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /tld_tb/UUT/adder File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 18
+add wave -position insertpoint sim:/tld_tb/*
+add wave -position end  sim:/tld_tb/UUT/w_sum
+add wave -position end  sim:/tld_tb/UUT/w_carry
+add wave -position 2  sim:/tld_tb/UUT/r_leds
+run 180
+add wave -position end  sim:/tld_tb/UUT/adder/w_y
+add wave -position end  sim:/tld_tb/UUT/adder/w_x
+add wave -position end  sim:/tld_tb/UUT/adder/r_sum
+add wave -position end  sim:/tld_tb/UUT/adder/r_carry
+add wave -position end  sim:/tld_tb/UUT/adder/o_carry
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_x_data'. The port definition is at: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/serial_adder.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /tld_tb/UUT/adder File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_y_data'. The port definition is at: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/serial_adder.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /tld_tb/UUT/adder File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 18
+run 180
+add wave -position end  sim:/tld_tb/UUT/adder/sr_x/sr
+add wave -position end  sim:/tld_tb/UUT/adder/sr_y/sr
+add wave -position end  sim:/tld_tb/UUT/adder/sr_y/load
+add wave -position end  sim:/tld_tb/UUT/adder/sr_y/data
+add wave -position 10  sim:/tld_tb/UUT/adder/sr_x/load
+add wave -position 11  sim:/tld_tb/UUT/adder/sr_x/data
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_x_data'. The port definition is at: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/serial_adder.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /tld_tb/UUT/adder File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_y_data'. The port definition is at: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/serial_adder.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /tld_tb/UUT/adder File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 18
+run 180
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/tld_tb/UUT/r_y_data
+add wave -position end  sim:/tld_tb/UUT/r_x_data
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_x_data'. The port definition is at: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/serial_adder.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /tld_tb/UUT/adder File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'i_y_data'. The port definition is at: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/serial_adder.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /tld_tb/UUT/adder File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 18
+run 180
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+run 180
+add wave -position 5  sim:/tld_tb/UUT/adder/r_sum
+restart -f
+# Closing VCD file "out.vcd"
+run 180
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+run 180
+# Compile of serial_adder.v failed with 4 errors.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# 6 compiles, 1 failed with 4 errors.
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+run 180
+restart -f
+# Closing VCD file "out.vcd"
+run 180
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+# ** Error: (vsim-3033) Instantiation of 'controller' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tld_tb/UUT File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 34
+#         Searched libraries:
+#             C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/simulation/work
+run 180
+# No Design Loaded!
+vsim -gui work.tld_tb
+# vsim -gui work.tld_tb 
+# Start time: 07:08:16 on Jul 31,2021
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+# ** Error: (vsim-3033) Instantiation of 'controller' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tld_tb/UUT File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/hdl/tld.v Line: 34
+#         Searched libraries:
+#             C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/simulation/work
+# Error loading design
+# End time: 07:56:06 on Jul 31,2021, Elapsed time: 0:47:50
+# Errors: 2, Warnings: 1
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# Compile of controller.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.tld_tb
+# vsim -gui work.tld_tb 
+# Start time: 07:56:52 on Jul 31,2021
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+# Loading work.controller
+# ** Error: (vsim-3063) Port 'i_slider' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tld_tb/UUT File: C:/Users/mattz/OneDrive/Deakin/Comp Sci/2021/T2/SIT329/Assignments/Week_3/project/serial_adder/testbench/tld_tb.v Line: 12
+# Error loading design
+# End time: 07:56:53 on Jul 31,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# Compile of controller.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.tld_tb
+# vsim -gui work.tld_tb 
+# Start time: 07:57:17 on Jul 31,2021
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+# Loading work.controller
+# Warning in wave window restart: ** UI-Msg: (vish-4014) No objects found matching '/tld_tb/UUT/r_leds'. 
+run 180
+run 180
+run 180
+add wave -position end  sim:/tld_tb/t_sliders
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 400
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# Compile of controller.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# Compile of controller.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+# Loading work.controller
+run 400
+run 100
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# Compile of controller.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+# Loading work.controller
+run 1000
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# Compile of controller.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+# Loading work.controller
+run 1000
+# Compile of serial_adder.v was successful.
+# Compile of shift_register.v was successful.
+# Compile of shift_register_tb.v was successful.
+# Compile of serial_adder_tb.v was successful.
+# Compile of tld_tb.v was successful.
+# Compile of tld.v was successful.
+# Compile of controller.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tld_tb
+# Loading work.tld
+# Loading work.serial_adder
+# Loading work.shift_register
+# Loading work.controller
+run 1000
+# End time: 08:30:49 on Jul 31,2021, Elapsed time: 0:33:32
+# Errors: 0, Warnings: 1

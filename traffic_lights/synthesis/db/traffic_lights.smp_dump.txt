@@ -1,9 +1,0 @@
-
-State Machine - |traffic_lights|r_state
-Name r_state.state_5 r_state.state_4 r_state.state_3 r_state.state_2 r_state.state_1 r_state.state_0 
-r_state.state_0 0 0 0 0 0 0 
-r_state.state_1 0 0 0 0 1 1 
-r_state.state_2 0 0 0 1 0 1 
-r_state.state_3 0 0 1 0 0 1 
-r_state.state_4 0 1 0 0 0 1 
-r_state.state_5 1 0 0 0 0 1 

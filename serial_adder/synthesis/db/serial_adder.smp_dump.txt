@@ -1,6 +1,0 @@
-
-State Machine - |tld|controller:ctrl|r_state
-Name r_state.state_load r_state.state_output r_state.state_sum 
-r_state.state_load 0 0 0 
-r_state.state_sum 1 0 1 
-r_state.state_output 1 1 0 

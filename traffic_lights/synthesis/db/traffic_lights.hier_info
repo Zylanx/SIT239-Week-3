@@ -69,11 +69,11 @@ i_reset => o_highway_lights[0]~reg0.ACLR
 i_reset => o_highway_lights[1]~reg0.ACLR
 i_reset => o_highway_lights[2]~reg0.ACLR
 i_reset => r_state~3.DATAIN
-o_highway_lights[0] <= o_highway_lights[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-o_highway_lights[1] <= o_highway_lights[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-o_highway_lights[2] <= o_highway_lights[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-o_country_lights[0] <= o_country_lights[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-o_country_lights[1] <= o_country_lights[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-o_country_lights[2] <= o_country_lights[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_highway_lights[0] << o_highway_lights[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_highway_lights[1] << o_highway_lights[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_highway_lights[2] << o_highway_lights[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_country_lights[0] << o_country_lights[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_country_lights[1] << o_country_lights[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_country_lights[2] << o_country_lights[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
